@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* ＝＝＝＝＝＝＝＝＝
+共通設定
+＝＝＝＝＝＝＝＝＝ */
+* {
+  list-style: none;
+  letter-spacing: 0;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+}
+
+/* 
+html {
+  max-width: 1280px;
+}
+
+body {
+  max-width: 1280px;
+} */
+
+.sabpt {
+  width: 100px;
+}
+
+/* ＝＝＝＝＝＝＝＝＝
+PC用設定
+＝＝＝＝＝＝＝＝＝ */
+
+/* ＝＝＝＝＝＝＝＝＝
+ヘッダー
+＝＝＝＝＝＝＝＝＝ */
+.header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  padding: 20px;
+}
+
+.header #logo {
+  display: flex;
+  align-items: center;
+}
+
+.header ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  justify-content: flex-end;
+}
+
+.haeder #nav li {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header #nav li a {
+  color: white;
+  font-size: 14px;
+  padding: 0px;
+  margin: 0px;
+}
+
+#mainvisual {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+header .textimg {
+  z-index: -1;
+  margin:  45px 0px 0px 3%;
+}
+
+header .mainimg {
+  z-index: -1;
+  width: 75%;
+  object-fit: contain;
+}
+
+
+
+
+/* ＝＝＝＝＝＝＝＝＝
+ニュース
+＝＝＝＝＝＝＝＝＝ */
+
+
+
+/* ＝＝＝＝＝＝＝＝＝
+当院について
+＝＝＝＝＝＝＝＝＝ */
+
+
+
+/* ＝＝＝＝＝＝＝＝＝
+コース・料金
+＝＝＝＝＝＝＝＝＝ */
+
+
+
+/* ＝＝＝＝＝＝＝＝＝
+お客様の声
+＝＝＝＝＝＝＝＝＝ */
+
+
+
+/* ＝＝＝＝＝＝＝＝＝
+ご予約・お問い合わせ
+＝＝＝＝＝＝＝＝＝ */
+
+
+
+/* ＝＝＝＝＝＝＝＝＝
+フッター
+＝＝＝＝＝＝＝＝＝ */
+
+
+
+
+
+
+
+
+
+
+/* ＝＝＝＝＝＝＝＝＝
+PS用設定
+＝＝＝＝＝＝＝＝＝ */
+
+
+
+/* ＝＝＝＝＝＝＝＝＝
+ニュース
+＝＝＝＝＝＝＝＝＝ */
+
+
+
+/* ＝＝＝＝＝＝＝＝＝
+当院について
+＝＝＝＝＝＝＝＝＝ */
+
+
+
+/* ＝＝＝＝＝＝＝＝＝
+コース・料金
+＝＝＝＝＝＝＝＝＝ */
+
+
+
+/* ＝＝＝＝＝＝＝＝＝
+お客様の声
+＝＝＝＝＝＝＝＝＝ */
+
+
+
+/* ＝＝＝＝＝＝＝＝＝
+ご予約・お問い合わせ
+＝＝＝＝＝＝＝＝＝ */
+
+
+
+/* ＝＝＝＝＝＝＝＝＝
+フッター
+＝＝＝＝＝＝＝＝＝ */
