@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="course.css">
 </head>
 
 <body>
@@ -32,11 +32,15 @@
       <img class="close-btn" src="images/btn/close_btn.png" alt="">
     </div>
     <div id="pc-mainvisual">
-      <img class="textimg" src="images/header_image/mainvisual_text.jpg" alt="">
-      <img class="mainimg" src="images/header_image/mainvisual_img.png" alt="">
+      <img src="images/header_image/course.png" alt="">
     </div>
     <div id="ps-mainvisual">
-      <img src="images/header_image/ps-mainvisual.png" alt="">
+      <img src="images/header_image/ps_course.png" alt="">
+      <div class="textbox">
+        <h2>Price</h2>
+        <p>コース・料金</p>
+      </div>
+      <img class="main-background" src="images/background/background_3.png" alt="">
     </div>
 
     <!-- ナビゲーション -->
@@ -65,65 +69,11 @@
 
   <!-- メインここから -->
   <main>
-    <!-- ニュースここから -->
-    <section id="news">
-      <div class="content1">
-        <div class="content-top">
-          <h2>News</h2>
-          <p>お知らせ</p>
-        </div>
-        <div class="times">
-          <div class="time">
-            <p class="time-day">2022/12/21</p>
-            <img src="images/UI Parts/badge_tag.jpg" alt="">
-          </div>
-          <p class="time-about">年末年始の営業時間について</p>
-        </div>
-      </div>
-      <div class="content2">
-        <a href="news.html">→ お知らせ一覧へ</a>
-      </div>
+    <!-- トップナビここから -->
+    <section class="top-nav">
+      <p>ホーム <span>＞</span> コース・料金</p>
     </section>
-    <!-- ニュースここまで -->
-
-    <!-- 当院についてここから -->
-    <section id="about">
-      <div class="about-background">
-        <img src="images/logo/comcept.png" alt="">
-      </div>
-      <div class="content1">
-        <div class="contentbox">
-          <div class="content-top">
-            <img src="images/Title/about_title.png" alt="">
-          </div>
-          <div class="content-box">
-            <p class="text1">
-              日々変化する<br>
-              カラダと心を癒す<br>
-              パーソナル<br>
-              トレーナーとして
-            </p>
-            <p class="text1-ps">
-              日々変化する体と心を癒すパーソナルトレーナーとして
-            </p>
-            <p class="text2">
-              当院では、問診にてお客様の症状や生活スタイル、ご希望を丁寧にお伺いした上で施術方針を立てていきます。<br>
-              <br>
-              また、根本的に症状を改善するために、お客様ご自身で行えるケアやストレッチもお伝えします。<br>
-              <br>
-              ご不安な点や疑問点などお気軽にご相談くださいませ。
-            </p>
-            <div class="about-btn">
-              <a class="btn" href="about.html">→ 当院について</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="content2">
-        <img src="images/top_page_image/about1.png" alt="">
-      </div>
-    </section>
-    <!-- 当院についてここまで -->
+    <!-- トップナビここまで -->
 
     <!-- コース・料金ここから -->
     <section id="course">
@@ -158,61 +108,49 @@
             </div>
           </div>
         </div>
-        <div class="course-btn">
-          <a class="btn" href="course.html">→ コース・料金詳細へ</a>
-        </div>
       </div>
     </section>
     <!-- コース・料金ここまで -->
 
-    <!-- お客様の声ここから -->
-    <section id="voices">
+    <!-- 保健診療詳細 -->
+    <section id="insurance">
       <div class="content">
-        <div class="content-top-pc">
-          <img class="backimg" src="images/top_page_image/voices1.jpg" alt="">
-          <img class="backimg2" src="images/background/hangetu.png" alt="">
-        </div>
-        <div class="content-top-ps">
-          <img class="ps-backimg" src="images/top_page_image/ps-voices1.png" alt="">
-          <img class="ps-backimg2" src="images/background/Subtract.png" alt="">
-          <img class="ps-backimg3" src="images/Title/voice_title.png" alt="">
-        </div>
         <div class="contentbox1">
-          <img src="images/Title/voice_title.png" alt="">
-          <p>
-            痛みの改善に加えて自分で予防もできるようになりました
-          </p>
+            <img src="images/Title/course1.png" alt="">
+          <p>健康保険の適用は、慢性化していない、急性のけがのみが対象となります。<br>「負傷原因が急性または亜急性（急性に準ずる）の外傷性の負傷」のみです。</p>
+          <ul>
+            <li>骨折・打撲・捻挫・脱臼</li>
+            <li>スポーツ診療</li>
+            <li>交通事故</li>
+          </ul>
         </div>
         <div class="contentbox2">
-          <div class="box">
-            <img src="images/top_page_image/voices2.jpg" alt="">
-            <div class="textbox">
-              <p class="text1">S・K様　30代女性</p>
-              <p class="text2">1ヶ月で腰の痛みが軽減しました。自分で自宅でできるケアも教えていただき、お任せしてよかったです。</p>
-            </div>
-          </div>
-          <div class="box">
-            <img src="images/top_page_image/voices3.jpg" alt="">
-            <div class="textbox">
-              <p class="text1">T・M様　40代男性</p>
-              <p class="text2">マラソ
-                ンで右膝が痛むので、施術を受けています。なぜ痛みが生じるのかを身体の仕組みから教えていただき、普段の練習メニューも工夫できています。</p>
-            </div>
-          </div>
-          <div class="box">
-            <img src="images/top_page_image/voices4.jpg" alt="">
-            <div class="textbox">
-              <p class="text1">S・T様　60代女性</p>
-              <p class="text2">転倒して足を骨折したのをきっかけに、痛みの軽減と筋肉の衰えを防ぐための方針を立てていただいています。今は毎日元気に近所を散歩できています。</p>
-            </div>
-          </div>
-        </div>
-        <div class="voices-btn">
-          <a class="btn" href="voices.html">→ お客様の声一覧へ</a>
+          <img src="images/main_image/course1.png" alt="">
         </div>
       </div>
     </section>
-    <!-- お客様の声ここまで -->
+
+    <!-- 自費診療詳細 -->
+    <section id="self-pay">
+      <div class="content">
+        <div class="contentbox1">
+            <img src="images/Title/course2.png" alt="">
+          <p class="text1">慢性的なご症状、日常生活の疲労やご年齢により生じる痛み緩和の施術は健康保険の適用がなく、全額自己負担となります。</p>
+          <ul>
+            <li>腰痛・肩こり</li>
+            <li>冷え性・だるさ</li>
+            <li>骨盤・背骨矯正</li>
+          </ul>
+          <p class="text2">初回　8,800円（税込）/ 50分</p>
+          <p class="text2">2回目以降　6,600円（税込）/ 30分</p>
+          <p class="text3">初回<br>8,800円（税込）/ 50分</p>
+          <p class="text3 i">2回目以降<br>6,600円（税込）/ 30分</p>
+        </div>
+        <div class="contentbox2">
+          <img src="images/main_image/course2.png" alt="">
+        </div>
+      </div>
+    </section>
 
     <!-- ご予約・お問い合わせここから -->
     <section id="form">
